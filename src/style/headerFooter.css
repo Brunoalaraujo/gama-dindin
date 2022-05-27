@@ -1,11 +1,79 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
 }
 
+/* header */
+
 header {
-    background-color: #2E948A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e948a;
+  padding: 10px 5%;
+}
+
+.navTopLinks {
+  list-style: none;
+}
+
+.navTopLinks li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.navTopLinks li a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+.navTopLinks li a:hover {
+  font-weight: 700;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e948a;
+  padding: 15px 5%;
+}
+
+footer img {
+  height: 75px;
+}
+
+.navFooterLinks ul {
+  list-style: none;
+}
+
+.navFooterLinks li {
+  padding: 3px 0;
+}
+
+.navFooterLinks li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+
+.navFooterLinks li a:hover {
+  font-weight: 700;
+}
+
+.btnFooter :first-child {
+    margin-bottom: 7px;
+}
+
+.btnFooter p{
+    text-align: center;
     color: #fff;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 5px 30px;
 }
