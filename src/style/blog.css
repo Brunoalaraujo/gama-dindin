@@ -1,0 +1,48 @@
+.blogBanner{
+    padding: 80px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogBannerInfo {
+    padding: 10% 0;
+    max-width: 400px;
+}
+
+.blogBannerInfo h1 {
+    color: #009688;
+    font-size: 2.5rem;
+    padding-bottom: 10%;
+}
+
+/* posts */
+
+.othersPosts {
+    padding: 80px 10%;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.post {
+    max-width: 350px;
+    padding-bottom: 4rem;
+}
+
+.post a {
+    text-decoration: none;
+}
+
+.post a h3 {
+    margin: 1.5rem 0;
+    color: #FF4081;
+
+}
+
+.postImg{
+    width: 350px;
+    height: 200px;
+    background-color: #C4C4C4;
+    border: 1px solid ;
+}
