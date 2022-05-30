@@ -1,0 +1,46 @@
+.contatoMain{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 10%;
+    min-height: 77.6vh;
+}
+/* form */
+.form{
+    flex-direction: column;
+}
+
+.form h2{
+    margin: 0 0 50px 0;
+    font-size: 2em;
+    font-weight: 700;
+    color: #FF4081;
+}
+
+.form input{
+    width: 80%;
+    padding: 0.35rem 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+}
+
+.form textarea {
+    width: 80%;
+    height: 300px;
+    padding: 0.35rem 0.75rem;
+    margin-bottom: 1rem;
+    border: 2px solid;
+    border-radius: 15px;
+}
+
+#enviar {
+    background-color: #FF4081;
+    color: #fff;
+    border: none;
+    width: 20%;
+}
+
+/* img */
+
+section img {
+    margin-top: 50px;
+}
