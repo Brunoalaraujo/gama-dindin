@@ -1,0 +1,72 @@
+.bannerInves {
+    display: flex;
+    padding: 50px 15%;
+    justify-content: space-between;
+}
+
+.bannerInfo{
+    max-width: 400px;
+}
+
+.bannerInfo h1 {
+    font-size: 2.5rem;
+    color: #FF4081;
+    padding-bottom: 1rem;
+}
+
+.bannerInfo p {
+    font-size: 0.85rem;
+    max-width: 325px;
+}
+
+.bannerInves img {
+    max-height: 400px;
+    max-width: 250px;
+}
+
+/* aulas */
+
+.aulas{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 50px 15%;
+    background-color: #F6F6F6;
+}
+
+.aulasCard {
+    display: flex;
+    padding: 50px 0;
+    border-bottom: 2px solid #cacaca;
+}
+
+#aula3 {
+    border-bottom: none;
+}
+
+.aulaVideo {
+    display: flex;
+    width: 350px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+i {
+    margin: 0 auto;
+    align-self: center;
+}
+
+.aulaInfo{
+    padding-left: 2rem;
+    max-width: 425px;
+}
+
+.aulaInfo h3{
+    font-size: 1.25rem;
+    color: #FF4081;
+    padding-bottom: 2rem;
+}
+
+.aulaInfo :nth-child(2) {
+    padding-bottom: 1.25rem;
+}
