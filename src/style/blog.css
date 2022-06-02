@@ -46,3 +46,21 @@
     background-color: #C4C4C4;
     border: 1px solid ;
 }
+
+@media screen and (max-width: 768px) {
+  .blogBanner img {
+      display: none;
+  }
+  
+}
+
+@media screen and (max-width: 425px) {
+    .othersPosts{
+        padding: 50px 5%;
+    }
+    
+    .postImg {
+        width: 280px;
+    }
+    
+}

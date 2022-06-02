@@ -36,11 +36,23 @@
     background-color: #FF4081;
     color: #fff;
     border: none;
-    width: 20%;
+    width: 100px;
 }
 
 /* img */
 
 section img {
     margin-top: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    section img {
+        width: 400px;
+    } 
+}
+
+@media screen and (max-width: 900px) {
+    section img {
+        display: none;
+    }
 }

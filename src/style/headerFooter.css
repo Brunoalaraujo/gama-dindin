@@ -81,3 +81,25 @@ footer img {
 .btnFooter p:hover{
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  footer{
+    flex-direction: column;
+  }
+
+  .navFooterLinks {
+    padding: 5px 0;
+  }
+}
+
+@media screen and (max-width: 425px){
+  header {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .navTopLinks li{
+    padding: 5px 5px;
+  }
+
+}
