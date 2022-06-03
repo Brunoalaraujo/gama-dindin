@@ -65,7 +65,11 @@
   padding: 0 5rem;
 }
 
-.cursos section :nth-child(4) {
+.cursos section a {
+  text-decoration: none;
+}
+
+.cursos section .btnComecar {
   margin: 1rem auto;
   max-width: 40%;
   font-size: 0.75em;
@@ -122,6 +126,10 @@
 .conteudo h2 {
   color: #009688;
   padding: 2rem 0;
+}
+
+.conteudo a {
+  text-decoration: none;
 }
 
 .maisParaVoce {
