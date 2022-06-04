@@ -49,6 +49,10 @@ section img {
     section img {
         width: 400px;
     } 
+
+    #enviar {
+        margin-right: 300px;
+    }
 }
 
 @media screen and (max-width: 900px) {
